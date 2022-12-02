@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <title>Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  Features
-  Company
-  Careers
-  About
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li>Features</li>
+      <li>Company</li>
+      <li>Careers</li>
+      <li>About</li>
+    </ul>
 
-  Login
-  Register
+    <ul class="log-list">
+      <li>Login</li>
+      <li>Register</li>
+    </ul>
+  </nav>
 
-  Make remote work
+  <div class="main">
+    <h1 class="title">
+      Make remote work
+    </h1>
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+    <p class="tag-line">
+      Get your team in sync, no matter your location. Streamline processes,
+      create team rituals, and watch productivity soar.
+    </p>
 
-  Learn more
-  
+
+    <button>
+      Learn more
+    </button>
+
+    <img src="images/image-hero-desktop.png" alt="">
+  </div>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ahmed Amer</a>.
   </div>
 </body>
+
 </html>
