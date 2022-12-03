@@ -26,17 +26,21 @@
 
 <body>
 
-  <nav class="navbar">
-    <ul class="nav-list">
-      <li>Features</li>
-      <li>Company</li>
-      <li>Careers</li>
-      <li>About</li>
-    </ul>
+  <nav class="navbar flex">
+    <div class="flex">
+      <img src="images/logo.svg" alt="" class="logo">
 
-    <ul class="log-list">
+      <ul class="nav-list flex">
+        <li class="flex expand">Features <img src="images/icon-arrow-down.svg" alt="" class="arrow-down"></li>
+        <li class="flex expand">Company <img src="images/icon-arrow-down.svg" alt="" class="arrow-down"></li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </div>
+
+    <ul class="log-list flex">
       <li>Login</li>
-      <li>Register</li>
+      <li class="out-line">Register</li>
     </ul>
   </nav>
 

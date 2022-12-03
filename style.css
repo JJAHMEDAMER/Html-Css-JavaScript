@@ -1,3 +1,12 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;900&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;0,900;1,200;1,400;1,600;1,800;1,900&display=swap');
+
+:root{
+    --black: hsl(0, 0%, 8%);
+    --white: hsl(0, 0%, 98%);
+    --gray: hsl(0, 0%, 41%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +20,43 @@ input {
 
 ul {
     list-style: none;
-    display: flex;
 }
 
-body {}
+body {
+    color: var(--black);
+    background-color: var(--white);
+    font-family: "Epilogue";
+}
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.logo{
+    margin-right: 25px;
+}
+
+.expand{
+    gap: 5px;
+}
+
+.out-line{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 20px 8px;
+    border-radius: 12px;
+    border-color: var(--black);
+}
+
+.out-line:hover{
+    background: var(--black);
+    color: var(--white);
+}
