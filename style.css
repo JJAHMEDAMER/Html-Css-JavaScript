@@ -47,7 +47,7 @@ body {
 }
 
 .expand {
-    gap: 5px;
+    gap: 10px;
 }
 
 .out-line-button {
@@ -95,6 +95,29 @@ body {
     border-radius: 12px;
 }
 
-.companies{
+.companies {
     padding-top: 50px;
+}
+
+.dropdown{
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 30px;
+    padding: 20px 30px;
+    box-shadow: 0 5px 25px -10px var(--gray);
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
 }
