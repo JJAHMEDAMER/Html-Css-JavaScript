@@ -48,7 +48,7 @@ body {
     gap: 5px;
 }
 
-.out-line{
+.out-line-button{
     border-width: 2px;
     border-style: solid;
     padding: 10px 20px 8px;
@@ -59,4 +59,20 @@ body {
 .out-line:hover{
     background: var(--black);
     color: var(--white);
+}
+
+.main{
+    margin: 50px 150px; 
+    gap: 100px
+}
+
+.hero-image{
+    width: 35rem;
+}
+
+.filled-button{
+    background: var(--black);
+    color: var(--white);
+    padding: 15px 30px 13px;
+    border-radius: 12px;
 }
