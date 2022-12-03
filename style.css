@@ -1,7 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;900&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;0,900;1,200;1,400;1,600;1,800;1,900&display=swap');
 
-:root{
+:root {
     --black: hsl(0, 0%, 8%);
     --white: hsl(0, 0%, 98%);
     --gray: hsl(0, 0%, 41%);
@@ -26,29 +26,31 @@ body {
     color: var(--black);
     background-color: var(--white);
     font-family: "Epilogue";
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35px;
 }
 
-.navbar{
+.navbar {
     justify-content: space-between;
     padding: 20px 30px;
 }
 
-.logo{
+.logo {
     margin-right: 25px;
 }
 
-.expand{
+.expand {
     gap: 5px;
 }
 
-.out-line-button{
+.out-line-button {
     border-width: 2px;
     border-style: solid;
     padding: 10px 20px 8px;
@@ -56,23 +58,43 @@ body {
     border-color: var(--black);
 }
 
-.out-line:hover{
+.out-line:hover {
     background: var(--black);
     color: var(--white);
 }
 
-.main{
-    margin: 50px 150px; 
-    gap: 100px
+.main {
+    margin: 50px 150px;
+    gap: 100px;
+    align-items: flex-end;
 }
 
-.hero-image{
-    width: 35rem;
+.hero-image {
+    width: 32rem;
 }
 
-.filled-button{
+.hero-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 75px;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.tag-line {
+    line-height: 1.5;
+}
+
+.filled-button {
     background: var(--black);
     color: var(--white);
     padding: 15px 30px 13px;
     border-radius: 12px;
+}
+
+.companies{
+    padding-top: 50px;
 }
